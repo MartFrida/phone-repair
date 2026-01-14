@@ -2,84 +2,133 @@
   {
     "brand": "iPhone",
     "category": "smartphone",
-    "name": "iPhone 14 Pro",
-    "image": "https://images.unsplash.com/photo-1661961112951-f6a8e9f5f9f3",
+    "name": "iPhone 16",
+    "image": "https://images.unsplash.com/photo-1726587912121-ea21fcc57ff8?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "price": "desde 79€"
   },
   {
     "brand": "iPhone",
     "category": "smartphone",
-    "name": "iPhone 13",
-    "image": "https://images.unsplash.com/photo-1633113214698-485cdb2f9c9d",
+    "name": "iPhone 15",
+    "image": "https://images.unsplash.com/photo-1764155061954-1b5672adf772?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "price": "desde 69€"
   },
   {
     "brand": "Samsung",
     "category": "smartphone",
     "name": "Galaxy S23",
-    "image": "https://images.unsplash.com/photo-1677200408964-7c6b1b2f6a44",
+    "image": "https://images.unsplash.com/photo-1760074016398-54f00e74ef63?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "price": "desde 75€"
   },
   {
     "brand": "Samsung",
     "category": "smartphone",
     "name": "Galaxy S22",
-    "image": "https://images.unsplash.com/photo-1648737966298-0a2f03f06abb",
+    "image": "/images/iphone.jpg",
     "price": "desde 65€"
   },
-  {
-    "brand": "iPhone",
-    "category": "tablet",
-    "name": "iPhone 14 Pro",
-    "image": "https://images.unsplash.com/photo-1661961112951-f6a8e9f5f9f3",
-    "price": "desde 79€"
-  },
-  {
+    {
     "brand": "iPhone",
     "category": "tablet",
     "name": "iPhone 13",
-    "image": "https://images.unsplash.com/photo-1633113214698-485cdb2f9c9d",
+    "image": "/images/iphone.jpg",
     "price": "desde 69€"
   },
   {
-    "brand": "Samsung",
+    "brand": "iPad",
     "category": "tablet",
-    "name": "Galaxy S23",
-    "image": "https://images.unsplash.com/photo-1677200408964-7c6b1b2f6a44",
-    "price": "desde 75€"
+    "name": "ipad Pro ",
+    "image": "https://images.unsplash.com/photo-1622531635122-4c6ef2a2848f?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "price": "desde 79€"
+  },
+  {
+    "brand": "iPad",
+    "category": "tablet",
+    "name": "ipad Pro 12.9",
+    "image": "https://images.unsplash.com/photo-1622531635122-4c6ef2a2848f?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "price": "desde 79€"
+  },
+  {
+    "brand": "iPad",
+    "category": "tablet",
+    "name": "ipad Pro ",
+    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?q=80&w=1115&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "price": "desde 79€"
+  },
+  {
+    "brand": "iPad",
+    "category": "tablet",
+    "name": "ipad Pro ",
+    "image": "https://images.unsplash.com/photo-1585790051609-09928c362a42?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "price": "desde 79€"
   },
   {
     "brand": "Samsung",
     "category": "tablet",
     "name": "Galaxy S22",
-    "image": "https://images.unsplash.com/photo-1648737966298-0a2f03f06abb",
+    "image": "/images/iphone.jpg",
     "price": "desde 65€"
   },{
-    "brand": "iPhone",
+    "brand": "Applewatch",
     "category": "applewatch",
     "name": "iPhone 14 Pro",
-    "image": "https://images.unsplash.com/photo-1661961112951-f6a8e9f5f9f3",
+    "image": "https://images.unsplash.com/photo-1548244823-b281470f2a95?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "price": "desde 79€"
+  },
+  {
+    "brand": "Applewatch",
+    "category": "applewatch",
+    "name": "iPhone 14 Pro",
+    "image": "https://images.unsplash.com/photo-1628427185411-6c8c2338e1e3?q=80&w=1025&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "price": "desde 79€"
+  },
+  {
+    "brand": "Applewatch",
+    "category": "applewatch",
+    "name": "iPhone 14 Pro",
+    "image": "https://images.unsplash.com/photo-1600948891299-30a7f822e6d8?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "price": "desde 79€"
+  },
+  {
+    "brand": "Applewatch",
+    "category": "applewatch",
+    "name": "iPhone 14 Pro",
+    "image": "https://images.unsplash.com/photo-1548244823-b281470f2a95?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "price": "desde 79€"
   },
   {
     "brand": "iPhone",
     "category": "applewatch",
     "name": "iPhone 13",
-    "image": "https://images.unsplash.com/photo-1633113214698-485cdb2f9c9d",
+    "image": "/images/iphone.jpg",
     "price": "desde 69€"
   },
   {
     "brand": "Samsung",
     "category": "applewatch",
     "name": "Galaxy S23",
-    "image": "https://images.unsplash.com/photo-1677200408964-7c6b1b2f6a44",
+    "image": "https://images.unsplash.com/photo-1721864428881-dbabb9ea0017?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "price": "desde 75€"
   },
   {
     "brand": "Samsung",
     "category": "applewatch",
     "name": "Galaxy S22",
-    "image": "https://images.unsplash.com/photo-1648737966298-0a2f03f06abb",
+    "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "price": "desde 65€"
+  },
+  {
+    "brand": "Samsung",
+    "category": "applewatch",
+    "name": "Galaxy S23",
+    "image": "https://images.unsplash.com/photo-1721864428894-3900930506aa?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "price": "desde 75€"
+  },
+  {
+    "brand": "Samsung",
+    "category": "applewatch",
+    "name": "Galaxy S23",
+    "image": "https://images.unsplash.com/photo-1722151954628-c218fbb82710?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "price": "desde 75€"
   }
 ]

@@ -3,9 +3,11 @@ import ModelCard from './ModelCard.jsx';
 import models from '../data/models.json';
 
 export default function ModelCatalog () {
-  const smartphones = models.filter (m => m.category === 'smartphone');
-  const tablets = models.filter (m => m.category === 'tablet');
-  const applewatches = models.filter (m => m.category === 'applewatch');
+  const iphone = models.filter (m => m.brand === 'iPhone');
+  const ipad = models.filter (m => m.brand === 'iPad');
+  const applewatches = models.filter (m => m.brand === 'Applewatch');
+  const samsung = models.filter (m => m.brand === 'Samsung');
+
   return (
     <div>
       <section
@@ -16,12 +18,12 @@ export default function ModelCatalog () {
         <h3 className="text-2xl sm:text-3xl font-semibold mb-10">logo Apple </h3>
         <h4 className="text-2xl sm:text-3xl font-semibold mb-10">Iphone</h4>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {smartphones.map (model => <ModelCard key={model.name} {...model} />)}
+          {iphone.map (model => <ModelCard key={model.name} {...model} />)}
         </div>
 
         <h3 className="text-2xl sm:text-3xl font-semibold mb-10">Ipad </h3>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {tablets.map (model => <ModelCard key={model.name} {...model} />)}
+          {ipad.map (model => <ModelCard key={model.name} {...model} />)}
         </div>
 
         <h3 className="text-2xl sm:text-3xl font-semibold mb-10">
@@ -34,7 +36,7 @@ export default function ModelCatalog () {
         </div>
         <h3 className="text-2xl sm:text-3xl font-semibold mb-10"> logo Samsung </h3>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {smartphones.map (model => <ModelCard key={model.name} {...model} />)}
+          {samsung.map (model => <ModelCard key={model.name} {...model} />)}
         </div>
         <h3 className="text-2xl sm:text-3xl font-semibold mb-10">Otros modelos </h3>
         {/* logos de otras marcas */}
