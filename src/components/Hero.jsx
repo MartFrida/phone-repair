@@ -13,10 +13,10 @@ export default function Hero() {
               Servicio profesional para iPhone y Samsung. Piezas originales, técnicos certificados y garantía hasta 12 meses.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
-              <button className="w-full sm:w-auto px-6 py-3 rounded-xl bg-yellow-400 text-black font-semibold">
+              <button className="w-full sm:w-auto px-6 py-3 rounded-xl bg-yellow-400 text-black font-semibold cursor-pointer">
                 Reservar ahora
               </button>
-              <button className="w-full sm:w-auto px-6 py-3 rounded-xl border border-neutral-700">
+              <button className="w-full sm:w-auto px-6 py-3 rounded-xl border border-neutral-700 cursor-pointer">
                 Ver precios
               </button>
             </div>
