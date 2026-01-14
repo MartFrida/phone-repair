@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import Services from './components/Services';
 import ModelCatalog from './components/ModelCatalog';
 import MobileCTA from './components/MobileCTA';
+import ScrollToTop from './components/ScrollToTop';
 
 export default function App () {
   return (
@@ -15,6 +16,7 @@ export default function App () {
       <ModelCatalog />
       <MobileCTA />
       <Footer />
+       <ScrollToTop />
     </div>
   );
 }

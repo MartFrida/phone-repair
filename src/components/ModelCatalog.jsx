@@ -14,7 +14,7 @@ export default function ModelCatalog () {
         id="modelos"
         className="max-w-7xl mx-auto px-4 sm:px-6 py-16 sm:py-20"
       >
-        <h2 className="text-2xl sm:text-3xl font-semibold mb-10 ">Modelos </h2>
+        <h2 className="text-3xl sm:text-4xl font-semibold mb-12 text-center uppercase tracking-widest">Modelos </h2>
         <h3 className="text-2xl sm:text-3xl font-semibold mb-10">logo Apple </h3>
         <h4 className="text-2xl sm:text-3xl font-semibold mb-10">Iphone</h4>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
