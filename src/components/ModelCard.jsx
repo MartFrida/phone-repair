@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function ModelCard({ brand, name, image }) {
+export default function ModelCard({ name, image }) {
   return (
     <div>
       <article className="group rounded-2xl bg-neutral-900 border border-neutral-800 overflow-hidden hover:border-yellow-400 transition">
@@ -13,7 +13,7 @@ export default function ModelCard({ brand, name, image }) {
         />
       </div>
       <div className="p-4">
-        <span className="text-xs text-neutral-500">{brand}</span>
+        {/* <span className="text-xs text-neutral-500">{brand}</span> */}
         <h3 className="font-semibold">{name}</h3>
         <div className="mt-3 flex items-center justify-between">
           {/* <span className="text-yellow-400 font-bold">{price}</span> */}
