@@ -1,0 +1,85 @@
+[
+  {
+    "brand": "iPhone",
+    "category": "smartphone",
+    "name": "iPhone 14 Pro",
+    "image": "https://images.unsplash.com/photo-1661961112951-f6a8e9f5f9f3",
+    "price": "desde 79€"
+  },
+  {
+    "brand": "iPhone",
+    "category": "smartphone",
+    "name": "iPhone 13",
+    "image": "https://images.unsplash.com/photo-1633113214698-485cdb2f9c9d",
+    "price": "desde 69€"
+  },
+  {
+    "brand": "Samsung",
+    "category": "smartphone",
+    "name": "Galaxy S23",
+    "image": "https://images.unsplash.com/photo-1677200408964-7c6b1b2f6a44",
+    "price": "desde 75€"
+  },
+  {
+    "brand": "Samsung",
+    "category": "smartphone",
+    "name": "Galaxy S22",
+    "image": "https://images.unsplash.com/photo-1648737966298-0a2f03f06abb",
+    "price": "desde 65€"
+  },
+  {
+    "brand": "iPhone",
+    "category": "tablet",
+    "name": "iPhone 14 Pro",
+    "image": "https://images.unsplash.com/photo-1661961112951-f6a8e9f5f9f3",
+    "price": "desde 79€"
+  },
+  {
+    "brand": "iPhone",
+    "category": "tablet",
+    "name": "iPhone 13",
+    "image": "https://images.unsplash.com/photo-1633113214698-485cdb2f9c9d",
+    "price": "desde 69€"
+  },
+  {
+    "brand": "Samsung",
+    "category": "tablet",
+    "name": "Galaxy S23",
+    "image": "https://images.unsplash.com/photo-1677200408964-7c6b1b2f6a44",
+    "price": "desde 75€"
+  },
+  {
+    "brand": "Samsung",
+    "category": "tablet",
+    "name": "Galaxy S22",
+    "image": "https://images.unsplash.com/photo-1648737966298-0a2f03f06abb",
+    "price": "desde 65€"
+  },{
+    "brand": "iPhone",
+    "category": "applewatch",
+    "name": "iPhone 14 Pro",
+    "image": "https://images.unsplash.com/photo-1661961112951-f6a8e9f5f9f3",
+    "price": "desde 79€"
+  },
+  {
+    "brand": "iPhone",
+    "category": "applewatch",
+    "name": "iPhone 13",
+    "image": "https://images.unsplash.com/photo-1633113214698-485cdb2f9c9d",
+    "price": "desde 69€"
+  },
+  {
+    "brand": "Samsung",
+    "category": "applewatch",
+    "name": "Galaxy S23",
+    "image": "https://images.unsplash.com/photo-1677200408964-7c6b1b2f6a44",
+    "price": "desde 75€"
+  },
+  {
+    "brand": "Samsung",
+    "category": "applewatch",
+    "name": "Galaxy S22",
+    "image": "https://images.unsplash.com/photo-1648737966298-0a2f03f06abb",
+    "price": "desde 65€"
+  }
+]
