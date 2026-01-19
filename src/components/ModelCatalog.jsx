@@ -63,9 +63,11 @@ export default function ModelCatalog () {
         </div>
 
         {/* Samsung */}
-       <div className="mt-12  flex items-center justify-start opacity-100 transition">
-  {React.cloneElement(samsungLogo, { className: "my-0  w-40 fill-gray-200 hover:fill-white transition" })}
-</div>
+        <div className="mt-12  flex items-center justify-start opacity-100 transition">
+          {React.cloneElement (samsungLogo, {
+            className: 'my-0  w-40 fill-gray-200 hover:fill-white transition',
+          })}
+        </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {samsung.map (model => <ModelCard key={model.id} {...model} />)}

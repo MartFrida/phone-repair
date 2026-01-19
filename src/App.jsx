@@ -7,18 +7,30 @@ import ModelCatalog from './components/ModelCatalog';
 import MobileCTA from './components/MobileCTA';
 import ScrollToTop from './components/ScrollToTop';
 import BrandLogos from './components/BrandLogos';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import RepairPage from './pages/RepairPage'; 
 
-export default function App () {
+export default function App() {
   return (
-    <div className="min-h-screen bg-neutral-950 text-neutral-100 font-sans">
-      <Header />
-      <Hero />
-      {/* <Services /> */}
-      <ModelCatalog />
-      <BrandLogos />
-      <MobileCTA />
-      <Footer />
-       <ScrollToTop />
-    </div>
+    <Router>
+      <div className="min-h-screen bg-neutral-950 text-neutral-100 font-sans">
+        <Header />
+               <Routes>
+          <Route path="/" element={
+            <>
+               <Hero />
+              <ModelCatalog />
+              {/* <Services /> */}
+              <BrandLogos />
+              <MobileCTA />
+            </>
+          } />
+          <Route path="/reparar/:modelName" element={<RepairPage />} />
+        </Routes>
+        <Footer />
+        <ScrollToTop />
+      </div>
+    </Router>
   );
 }
+
