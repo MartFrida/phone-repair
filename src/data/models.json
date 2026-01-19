@@ -1,5 +1,7 @@
 [
   {
+    
+    "id": "iphone-16-128",
     "brand": "iPhone",
     "category": "smartphone",
     "name": "iPhone 16",
@@ -7,6 +9,7 @@
     "price": "desde 79€"
   },
   {
+    "id": "iphone-16-125",
     "brand": "iPhone",
     "category": "smartphone",
     "name": "iPhone 15",
@@ -14,6 +17,7 @@
     "price": "desde 69€"
   },
   {
+    "id": "samsung-6",
     "brand": "Samsung",
     "category": "smartphone",
     "name": "Galaxy S23",
@@ -21,6 +25,7 @@
     "price": "desde 75€"
   },
   {
+    "id": "samsung-5",
     "brand": "Samsung",
     "category": "smartphone",
     "name": "Galaxy S22",
@@ -28,6 +33,7 @@
     "price": "desde 65€"
   },
     {
+      "id": "iphone-16-126",
     "brand": "iPhone",
     "category": "tablet",
     "name": "iPhone 13",
@@ -35,6 +41,7 @@
     "price": "desde 69€"
   },
   {
+    "id": "iPad-0",
     "brand": "iPad",
     "category": "tablet",
     "name": "ipad Pro ",
@@ -42,6 +49,7 @@
     "price": "desde 79€"
   },
   {
+    "id": "iPad-1",
     "brand": "iPad",
     "category": "tablet",
     "name": "ipad Pro 12.9",
@@ -49,6 +57,7 @@
     "price": "desde 79€"
   },
   {
+    "id": "iPad-2",
     "brand": "iPad",
     "category": "tablet",
     "name": "ipad Pro ",
@@ -56,6 +65,7 @@
     "price": "desde 79€"
   },
   {
+    "id": "iPad-3",
     "brand": "iPad",
     "category": "tablet",
     "name": "ipad Pro ",
@@ -63,12 +73,14 @@
     "price": "desde 79€"
   },
   {
+    "id": "samsung-44",
     "brand": "Samsung",
     "category": "tablet",
     "name": "Galaxy S22",
     "image": "/images/iphone.jpg",
     "price": "desde 65€"
   },{
+    "id": "applewatch-13",
     "brand": "Applewatch",
     "category": "applewatch",
     "name": "iPhone 14 Pro",
@@ -76,6 +88,7 @@
     "price": "desde 79€"
   },
   {
+    "id": "applewatch-12",
     "brand": "Applewatch",
     "category": "applewatch",
     "name": "iPhone 14 Pro",
@@ -83,6 +96,7 @@
     "price": "desde 79€"
   },
   {
+    "id": "applewatch-2",
     "brand": "Applewatch",
     "category": "applewatch",
     "name": "iPhone 14 Pro",
@@ -90,6 +104,7 @@
     "price": "desde 79€"
   },
   {
+    "id": "applewatch-1",
     "brand": "Applewatch",
     "category": "applewatch",
     "name": "iPhone 14 Pro",
@@ -97,6 +112,7 @@
     "price": "desde 79€"
   },
   {
+    "id": "iphone-16-127",
     "brand": "iPhone",
     "category": "applewatch",
     "name": "iPhone 13",
@@ -104,6 +120,7 @@
     "price": "desde 69€"
   },
   {
+    "id": "samsung-4",
     "brand": "Samsung",
     "category": "applewatch",
     "name": "Galaxy S23",
@@ -111,6 +128,7 @@
     "price": "desde 75€"
   },
   {
+    "id": "samsung-3",
     "brand": "Samsung",
     "category": "applewatch",
     "name": "Galaxy S22",
@@ -118,6 +136,7 @@
     "price": "desde 65€"
   },
   {
+    "id": "samsung-2",
     "brand": "Samsung",
     "category": "applewatch",
     "name": "Galaxy S23",
@@ -125,6 +144,7 @@
     "price": "desde 75€"
   },
   {
+    "id": "samsung-1",
     "brand": "Samsung",
     "category": "applewatch",
     "name": "Galaxy S23",

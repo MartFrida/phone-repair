@@ -6,14 +6,16 @@ import Services from './components/Services';
 import ModelCatalog from './components/ModelCatalog';
 import MobileCTA from './components/MobileCTA';
 import ScrollToTop from './components/ScrollToTop';
+import BrandLogos from './components/BrandLogos';
 
 export default function App () {
   return (
     <div className="min-h-screen bg-neutral-950 text-neutral-100 font-sans">
       <Header />
       <Hero />
-      <Services />
+      {/* <Services /> */}
       <ModelCatalog />
+      <BrandLogos />
       <MobileCTA />
       <Footer />
        <ScrollToTop />

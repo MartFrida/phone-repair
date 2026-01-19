@@ -1,0 +1,12 @@
+[
+  { "name": "Apple", "logo": "/assets/brands/apple.svg" },
+  { "name": "Samsung", "logo": "/assets/brands/samsung.svg" },
+  { "name": "Xiaomi", "logo": "/assets/brands/xiaomi.svg" },
+  { "name": "Huawei", "logo": "/assets/brands/huawei.svg" },
+  { "name": "Oppo", "logo": "/assets/brands/oppo.svg" },
+  { "name": "Vivo", "logo": "/assets/brands/vivo.svg" },
+  { "name": "OnePlus", "logo": "/assets/brands/oneplus.svg" },
+  { "name": "Google", "logo": "/assets/brands/google.svg" },
+  { "name": "Sony", "logo": "/assets/brands/sony.svg" },
+  { "name": "LG", "logo": "/assets/brands/lg.svg" }
+]
