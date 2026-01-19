@@ -39,10 +39,7 @@ export default function ModelCatalog () {
           </div>
           <h4 className="text-2xl sm:text-4xl font-semibold mb-10">Ipad</h4>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {iphone.map (model => <ModelCard key={model.id} {...model} />)}
-        </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {ipad.map (model => <ModelCard key={model.id} {...model} />)}
         </div>
 
@@ -55,10 +52,7 @@ export default function ModelCatalog () {
             Applewatch
           </h4>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {iphone.map (model => <ModelCard key={model.id} {...model} />)}
-        </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {applewatches.map (model => <ModelCard key={model.id} {...model} />)}
         </div>
 

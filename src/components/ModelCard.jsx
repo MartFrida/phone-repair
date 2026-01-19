@@ -27,7 +27,7 @@ export default function ModelCard({ name, image }) {
               onClick={handleRepairClick}
               className="text-sm px-3 py-1.5 rounded-lg bg-neutral-800 hover:bg-yellow-400 hover:text-black transition"
             >
-              Reparar
+              Elegir tu reparación
             </button>
           </div>
         </div>
