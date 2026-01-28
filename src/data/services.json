@@ -1,51 +1,67 @@
 [
   {
-    "title": "Cambiar cristal de pantalla",
+    "title": "Pantalla rota - Cambiar cristal de pantalla",
+    "slug": "cambiar-cristal-pantalla",
     "description": "Sustitución del cristal dañado manteniendo la pantalla original. Rápido y con acabado profesional",
     "image": "/images/iphone.jpg"
   },
   {
     "title": "Cambiar pantalla por original",
+    "slug": "cambiar-pantalla-por-original",
     "description": "Reemplazo de la pantalla por una pieza original para máxima calidad, brillo y sensibilidad",
     "image": "/images/iphone.jpg"
   },
   {
     "title": "Cambiar pantalla por copia",
+    "slug": "cambiar-pantalla-por-copia",
     "description": "Instalación de una pantalla compatible de alta calidad a un precio más económico",
     "image": "/images/iphone.jpg"
   },
-  {
-    "title": "Cambiar cristal trasero",
-    "description": "Cambio del cristal trasero roto para devolver al dispositivo su aspecto original",
-    "image": "/images/iphone.jpg"
-  },
-  {
-    "title": "Cambiar bateria",
+    {
+    "title": "Batería",
+    "slug": "cambio-bateria",
     "description": "Sustitución de la batería para recuperar la autonomía y el rendimiento del dispositivo",
     "image": "/images/iphone.jpg"
   },
   {
+    "title": "Conector de carga",
+    "slug": "cambio-conector-carga",
+    "description": "Cambio del conector de carga para devolver al dispositivo su funcionalidad original",
+    "image": "/images/iphone.jpg"
+  },
+  {
+    "title": "Cambiar cristal trasero",
+    "slug": "cambiar-cristal-trasero",
+    "description": "Cambio del cristal trasero roto para devolver al dispositivo su aspecto original",
+    "image": "/images/iphone.jpg"
+  },
+  {
     "title": "Cambiar chasis completo",
+    "slug": "cambiar-chasis-completo",
     "description": "Reemplazo completo del chasis para eliminar golpes, deformaciones y desgaste",
     "image": "/images/iphone.jpg"
   },
   {
     "title": "Cambiar cristal de camara trasera",
+    "slug": "cambiar-cristal-camara-trasera",
     "description": "Sustitución del cristal de la cámara para asegurar fotos nítidas y sin reflejos",
     "image": "/images/iphone.jpg"
   },
   {
     "title": "Reparar placa base",
+    "slug": "reparar-placa-base",
     "description": "Diagnóstico y reparación de la placa base para fallos complejos y problemas electrónicos",
     "image": "/images/iphone.jpg"
   },
   {
     "title": "Cambiar flex de carga",
+    "slug": "cambiar-flex-carga",
     "description": "Reemplazo del conector de carga para garantizar una carga estable y segura",
     "image": "/images/iphone.jpg"
   },
   {
     "title": "Otros reparaciones",
+    "slug": "otras-reparaciones",
     "description": "Soluciones personalizadas para cualquier otro problema de tu dispositivo",
     "image": "/images/iphone.jpg"
   }

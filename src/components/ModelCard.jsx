@@ -1,13 +1,12 @@
-import { useNavigate } from 'react-router-dom';
+import REPAIR_DATA from '../data/models.json';
+import { useParams } from 'react-router-dom';
 
-export default function ModelCard({ name, image }) {
-  const navigate = useNavigate();
+export default function ModelCard({ name, image}) {
+    const { servicio, modelo } = useParams();
+  const repair = REPAIR_DATA?.[servicio]?.find(item => item.name === name);
+  console.log("repair", repair);
+  console.log("servicio, modelo", servicio, modelo);
 
-  const handleRepairClick = () => {
-    // Преобразуем имя модели в URL-friendly вид
-    const urlName = name.toLowerCase().replace(/\s+/g, '-');
-    navigate(`/reparar/${urlName}`);
-  };
 
   return (
     <div>
@@ -22,14 +21,34 @@ export default function ModelCard({ name, image }) {
         </div>
         <div className="p-4">
           <h3 className="font-semibold">{name}</h3>
-          <div className="mt-3 flex items-center justify-between">
-            <button
-              onClick={handleRepairClick}
-              className="text-sm px-3 py-1.5 rounded-lg bg-neutral-800 hover:bg-yellow-400 hover:text-black transition"
-            >
-              Elegir tu reparación
-            </button>
-          </div>
+          {/* Контент: цена, время, кнопки */}
+    <div className="flex-1">
+      {repair ? (
+        <div className="mb-6">
+          <p className="text-xl mb-2">
+            Precio: <span className="text-yellow-400 font-semibold">{repair.price}€</span>
+          </p>
+          
+        </div>
+      ) : (
+        <p className="text-neutral-400 mb-6">
+          Precio no disponible. Consúltanos sin compromiso.
+        </p>
+      )}
+
+       <div className="flex flex-col sm:flex-row gap-2">
+              <a
+                href="https://wa.me/34600000000"
+                target="_blank"
+                rel="noreferrer"
+                className="px-3 py-2 rounded-lg bg-yellow-400 text-black font-medium text-sm hover:opacity-90 transition"
+              >
+                Reparar
+              </a>
+
+              
+            </div>
+    </div>
         </div>
       </article>
     </div>
