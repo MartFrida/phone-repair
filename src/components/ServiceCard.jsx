@@ -34,13 +34,13 @@ export default function ServiceCard({title, slug, description, image}) {
             onClick={() => handleSelectModelClick (slug)}
             className="px-4 py-2 rounded-lg bg-neutral-800 text-sm hover:bg-yellow-400 hover:text-black transition"
           >
-            Elige tu modelo
+            Elegir modelo
           </button>
           <button
             onClick={handleOpenModal}
             className="px-4 py-2 rounded-lg bg-neutral-800 text-sm hover:bg-yellow-400 hover:text-black transition"
           >
-            Conocer más
+            Más info
           </button>
         </div>
       </article>
@@ -95,7 +95,7 @@ export default function ServiceCard({title, slug, description, image}) {
             <li key={i}>{area}</li>
           ))}
         </ul>
-        <div className="flex justify-end mt-4"> <button onClick={() => handleSelectModelClick (slug)} className="px-4 py-2 rounded-lg bg-yellow-400 text-black text-sm hover:bg-neutral-800 hover:text-white transition" > Elige tu modelo </button> </div>
+        <div className="flex justify-end mt-4"> <button onClick={() => handleSelectModelClick (slug)} className="px-4 py-2 rounded-lg bg-yellow-400 text-black text-sm hover:bg-neutral-800 hover:text-white transition" > Elegir modelo </button> </div>
 
         <p className="mt-6 font-medium">
           📦 Envíanos tu móvil | 🔧 Lo reparamos | 🚚 Te lo devolvemos como nuevo

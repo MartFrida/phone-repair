@@ -7,82 +7,85 @@ import ModelSelect from '../components/ModelSelect.jsx';
 
 export default function ServicePage () {
   const {servicio} = useParams ();
+  console.log ('servicio param:', servicio);
+  console.log ('MODELS_BY_SERVICE keys:', Object.keys (MODELS_BY_SERVICE));
+
   const models = MODELS_BY_SERVICE[servicio] || [];
-   const iphone = models.filter (m => m.brand === 'iPhone');
+  const iphone = models.filter (m => m.brand === 'iPhone');
   const ipad = models.filter (m => m.brand === 'iPad');
   const applewatches = models.filter (m => m.brand === 'Applewatch');
   const samsung = models.filter (m => m.brand === 'Samsung');
   const appleLogo = logos['apple'];
-    const samsungLogo = logos['samsung'];
+  const samsungLogo = logos['samsung'];
 
   return (
     <section className="max-w-7xl mx-auto px-4 py-10">
       {/* Заголовок */}
       <h1 className="text-2xl sm:text-3xl font-bold mb-4 capitalize">
-        Reparar:  {servicio.replace (/-/g, ' ')}
+        Reparar: {servicio.replace (/-/g, ' ')}
       </h1>
 
       <p className="text-neutral-400 mb-8">
         Selecciona tu modelo para ver el precio y detalles de la reparación.
       </p>
 
-          {/* Select model - Model Catalog */}
-           {/* Iphone */}
-                  <div className="mb-4 flex items-baseline justify-between ">
-                    <div className="flex items-baseline justify-start gap-5 ">
-                      <div className="flex items-center justify-start opacity-100 transition">
-                        {appleLogo}
-                      </div>
-                      <h4 className="text-2xl sm:text-4xl font-semibold mb-10">iPhone</h4>
-                    </div>
-          
-                    <ModelSelect models={iphone} />
-                  </div>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                    {iphone.map (model => <ModelCard key={model.id} {...model} />)}
-                  </div>
-          
-                  {/* Ipad */}
-                   <div className="mt-16 mb-4 flex items-baseline justify-between ">
-                    <div className="flex items-baseline justify-start gap-5 ">
-                    <div className="flex items-center justify-start opacity-100 transition">
-                      {appleLogo}
-                    </div>
-                    <h4 className="text-2xl sm:text-4xl font-semibold mb-10">iPad</h4>
-                    </div>
-                    <ModelSelect models={ipad} />
-                  </div>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                    {ipad.map (model => <ModelCard key={model.id} {...model} />)}
-                  </div>
-          
-                  {/* Applewatch */}
-                  <div className="mt-16 mb-4 flex items-baseline justify-between ">
-                    <div className="flex items-baseline justify-start gap-5 ">
-                    <div className="flex items-center justify-start opacity-100 transition">
-                      {appleLogo}
-                    </div>
-                    <h4 className="text-2xl sm:text-4xl font-semibold mb-10">
-                      Apple Watch
-                    </h4>
-                    </div>
-                    <ModelSelect models={applewatches} />
-                  </div>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                    {applewatches.map (model => <ModelCard key={model.id} {...model} />)}
-                  </div>
-          
-                  {/* Samsung */}
-                  <div className="mt-12  flex items-center justify-between opacity-100 transition">
-                    {React.cloneElement (samsungLogo, {
-                      className: 'my-0  w-40 fill-gray-200 hover:fill-white transition',
-                    })}
-                    <ModelSelect models={samsung} />
-                  </div>
-          
-                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                    {samsung.map (model => <ModelCard key={model.id} {...model} />)}
-                  </div>
+      {/* Select model - Model Catalog */}
+      {/* Iphone */}
+      <div className="mb-4 flex items-baseline justify-between ">
+        <div className="flex items-baseline justify-start gap-5 ">
+          <div className="flex items-center justify-start opacity-100 transition">
+            {appleLogo}
+          </div>
+          <h4 className="text-2xl sm:text-4xl font-semibold mb-10">iPhone</h4>
+        </div>
+
+        <ModelSelect models={iphone} />
+      </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        {iphone.map (model => <ModelCard key={model.id} {...model} />)}
+      </div>
+
+      {/* Ipad */}
+      <div className="mt-16 mb-4 flex items-baseline justify-between ">
+        <div className="flex items-baseline justify-start gap-5 ">
+          <div className="flex items-center justify-start opacity-100 transition">
+            {appleLogo}
+          </div>
+          <h4 className="text-2xl sm:text-4xl font-semibold mb-10">iPad</h4>
+        </div>
+        <ModelSelect models={ipad} />
+      </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        {ipad.map (model => <ModelCard key={model.id} {...model} />)}
+      </div>
+
+      {/* Applewatch */}
+      <div className="mt-16 mb-4 flex items-baseline justify-between ">
+        <div className="flex items-baseline justify-start gap-5 ">
+          <div className="flex items-center justify-start opacity-100 transition">
+            {appleLogo}
+          </div>
+          <h4 className="text-2xl sm:text-4xl font-semibold mb-10">
+            Apple Watch
+          </h4>
+        </div>
+        <ModelSelect models={applewatches} />
+      </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        {applewatches.map (model => <ModelCard key={model.id} {...model} />)}
+      </div>
+
+      {/* Samsung */}
+      <div className="mt-12  flex items-center justify-between opacity-100 transition">
+        {React.cloneElement (samsungLogo, {
+          className: 'my-0  w-40 fill-gray-200 hover:fill-white transition',
+        })}
+        <ModelSelect models={samsung} />
+      </div>
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        {samsung.map (model => <ModelCard key={model.id} {...model} />)}
+      </div>
 
       {/* SEO-блок */}
       {/* {seo && (
