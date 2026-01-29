@@ -5,104 +5,8 @@ import {logos} from '../data/logos.jsx';
 import ModelCard from '../components/ModelCard.jsx';
 import ModelSelect from '../components/ModelSelect.jsx';
 
-// Пример данных с изображениями моделей
-// const MODELS_BY_SERVICE = {
-//   'cambiar-pantalla-por-original': [
-//     {
-//       name: 'iPhone 11',
-//       slug: 'iphone-11',
-//       image: '/images/iphone.jpg',
-//       brand: 'iPhone',
-//       category: 'smartphone',
-//       price: 'desde 79€',
-//     },
-//     {
-//       name: 'iPhone 12',
-//       slug: 'iphone-12',
-//       image: '/images/iphone.jpg',
-//       brand: 'iPhone',
-//       category: 'smartphone',
-//       price: 'desde 79€',
-//     },
-//     {
-//       name: 'iPhone 13',
-//       slug: 'iphone-13',
-//       image: '/images/iphone.jpg',
-//       brand: 'iPhone',
-//       category: 'smartphone',
-//       price: 'desde 79€',
-//     },
-//   ],
-//   'cambio-bateria': [
-//     {
-//       name: 'Samsung S22',
-//       slug: 'samsung-s22',
-//       image: '/images/samsung-s22.webp',
-//     },
-//     {
-//       name: 'Samsung S23',
-//       slug: 'samsung-s23',
-//       image: '/images/samsung-s23.webp',
-//     },
-//   ],
-// };
-
-// // SEO-контент
-// const SEO_CONTENT = {
-//   'cambiar-pantalla-por-original': {
-//     title: '🔧 Cambio de cristal de pantalla móvil',
-//     description:
-//       'El cambio de cristal de pantalla móvil es la solución ideal cuando el cristal está roto o agrietado, pero la pantalla sigue funcionando correctamente, tanto en imagen como en respuesta táctil. Este tipo de reparación permite sustituir únicamente el vidrio dañado, conservando la pantalla original y ofreciendo una opción más económica que el cambio completo de pantalla.',
-//     whenRecommended: [
-//       'el cristal del móvil está roto o agrietado',
-//       'el táctil responde correctamente',
-//       'la imagen se ve clara, sin manchas ni líneas',
-//       'no hay zonas negras ni píxeles muertos',
-//       'buscas una reparación rápida y económica',
-//     ],
-//     advantages: [
-//       'Ahorro frente al cambio de pantalla completa',
-//       'Conservas la pantalla original del dispositivo',
-//       'Reparación segura y profesional',
-//       'Resultado como nuevo',
-//     ],
-//     serviceAreas: [
-//       'Barcelona',
-//       'Girona',
-//       'Tossa de Mar',
-//       'Toda España – recepción de dispositivos por envío',
-//     ],
-//   },
-//   'cambio-bateria': {
-//     title: '🔋 Cambio de batería móvil',
-//     description:
-//       'El cambio de batería es la solución perfecta cuando tu móvil se descarga rápidamente o no enciende. Garantiza que tu dispositivo vuelva a funcionar como el primer día, con baterías originales de alta calidad y técnicos certificados.',
-//     whenRecommended: [
-//       'El móvil se descarga rápidamente',
-//       'Apagados inesperados',
-//       'No carga correctamente',
-//       'Calienta demasiado',
-//       'Batería hinchada',
-//     ],
-//     advantages: [
-//       'Mayor duración y rendimiento',
-//       'Conserva el dispositivo original',
-//       'Reparación rápida y segura',
-//       'Garantía hasta 12 meses',
-//     ],
-//     serviceAreas: [
-//       'Barcelona',
-//       'Girona',
-//       'Tossa de Mar',
-//       'Toda España – recepción de dispositivos por envío',
-//     ],
-//   },
-// };
-
 export default function ServicePage () {
   const {servicio} = useParams ();
-
-
   const models = MODELS_BY_SERVICE[servicio] || [];
    const iphone = models.filter (m => m.brand === 'iPhone');
   const ipad = models.filter (m => m.brand === 'iPad');
@@ -115,36 +19,14 @@ export default function ServicePage () {
     <section className="max-w-7xl mx-auto px-4 py-10">
       {/* Заголовок */}
       <h1 className="text-2xl sm:text-3xl font-bold mb-4 capitalize">
-        Reparar {servicio.replace (/-/g, ' ')}
+        Reparar:  {servicio.replace (/-/g, ' ')}
       </h1>
 
       <p className="text-neutral-400 mb-8">
         Selecciona tu modelo para ver el precio y detalles de la reparación.
       </p>
 
-      {/* Карточки моделей */}
-      {/* {models.length === 0
-        ? <p className="text-neutral-500">No hay modelos disponibles.</p>
-        : <div className="flex overflow-x-auto gap-4 mb-10 scrollbar-thin scrollbar-thumb-neutral-700 scrollbar-track-neutral-900">
-            {models.map (model => (
-              <button
-                key={model.slug}
-                onClick={() => navigate (`/reparar/${servicio}/${model.slug}`)}
-                className="flex-shrink-0 w-40 sm:w-44 md:w-48 p-4 rounded-xl border border-neutral-800 bg-neutral-900 hover:border-yellow-400 transition flex flex-col items-center text-center"
-              >
-                <img
-                  src={model.image}
-                  alt={model.name}
-                  className="w-20 h-20 sm:w-24 sm:h-24 object-contain mb-2"
-                />
-                <span className="font-medium text-sm sm:text-base">
-                  {model.name}
-                </span>
-              </button>
-            ))}
-          </div>} */}
-
-          {/* Model Catalog */}
+          {/* Select model - Model Catalog */}
            {/* Iphone */}
                   <div className="mb-4 flex items-baseline justify-between ">
                     <div className="flex items-baseline justify-start gap-5 ">

@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import {useNavigate} from 'react-router-dom';
+import serviceInfo from '../data/serviceInfo.json';
 
 export default function ServiceCard({title, slug, description, image}) {
   const navigate = useNavigate ();
@@ -12,38 +13,8 @@ export default function ServiceCard({title, slug, description, image}) {
 
   const handleOpenModal = () => setIsModalOpen (true);
   const handleCloseModal = () => setIsModalOpen (false);
-
-  // Текст описания сервиса
-  const serviceInfo = `
-🔧 Cambio de cristal de pantalla móvil
-El cambio de cristal de pantalla móvil es la solución ideal cuando el cristal está roto o agrietado, pero la pantalla sigue funcionando correctamente, tanto en imagen como en respuesta táctil.
-Este tipo de reparación de cristal de móvil permite sustituir únicamente el vidrio dañado, conservando la pantalla original y ofreciendo una opción más económica que el cambio completo de pantalla.
-
-📌 ¿Cuándo es recomendable el cambio de cristal?
-Puedes acudir a nuestro servicio de cambio de cristal de pantalla si:
-- el cristal del móvil está roto o agrietado
-- el táctil responde correctamente
-- la imagen se ve clara, sin manchas ni líneas
-- no hay zonas negras ni píxeles muertos
-- buscas una reparación rápida y económica
-
-💡 Ventajas del cambio de cristal de móvil
-- Ahorro frente al cambio de pantalla completa
-- Conservas la pantalla original del dispositivo
-- Reparación segura y profesional
-- Resultado como nuevo
-
-En SmartFix Móvil & Cristal utilizamos materiales de alta calidad y técnicas especializadas para garantizar un acabado perfecto y duradero.
-📱 Reparamos tu móvil como nuevo.
-
-📍 Zonas de servicio:
-- Barcelona
-- Girona
-- Tossa de Mar
-- Toda España – recepción de dispositivos por envío
-
-📦 Envíanos tu móvil | 🔧 Lo reparamos | 🚚 Te lo devolvemos como nuevo
-`;
+ 
+  const currentService = serviceInfo[slug];
 
   return (
     <div>
@@ -75,30 +46,65 @@ En SmartFix Móvil & Cristal utilizamos materiales de alta calidad y técnicas e
       </article>
 
       {/* Модальное окно */}
-      {isModalOpen &&
-        <div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 p-4"
-          onClick={handleCloseModal}
-        >
-          <div className="bg-neutral-900 text-neutral-100 rounded-xl max-w-xl w-full p-6 relative overflow-y-auto max-h-[90vh]">
-            <button
-              onClick={handleCloseModal}
-              className="absolute top-4 right-4 text-neutral-400 hover:text-white"
-            >
-              ✕
-            </button>
-            <h2 className="text-xl font-bold mb-4">{title}</h2>
-            <pre className="whitespace-pre-wrap text-sm">{serviceInfo}</pre>
-            <div className="flex justify-end mt-4">
-            <button
-              onClick={() => handleSelectModelClick (slug)}
-               className="px-4 py-2 rounded-lg  bg-yellow-400 text-black text-sm hover:bg-neutral-800 hover:text-white transition"
-            >
-              Elige tu modelo
-            </button>
-            </div>
-          </div>
-        </div>}
+      {isModalOpen && currentService && (
+  <div
+    className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 p-4"
+    onClick={handleCloseModal}
+  >
+    <div
+      className="bg-neutral-900 text-neutral-100 rounded-xl max-w-xl w-full p-6 relative overflow-y-auto max-h-[90vh]"
+      onClick={e => e.stopPropagation()}
+    >
+      <button
+        onClick={handleCloseModal}
+        className="absolute top-4 right-4 text-neutral-400 hover:text-white"
+      >
+        ✕
+      </button>
+
+      <div className="prose prose-invert max-w-none text-neutral-400">
+        <h2 className="text-xl sm:text-2xl font-bold mb-3">
+          {currentService.title}
+        </h2>
+
+        <p className="mb-4">{currentService.description}</p>
+
+        <h3 className="text-lg sm:text-xl font-semibold mt-6 mb-2">
+          📌 ¿Cuándo es recomendable?
+        </h3>
+        <ul className="list-disc list-inside mb-4">
+          {currentService.whenRecommended.map((item, i) => (
+            <li key={i}>{item}</li>
+          ))}
+        </ul>
+
+        <h3 className="text-lg sm:text-xl font-semibold mt-6 mb-2">
+          💡 Ventajas
+        </h3>
+        <ul className="list-disc list-inside mb-4">
+          {currentService.advantages.map((item, i) => (
+            <li key={i}>{item}</li>
+          ))}
+        </ul>
+
+        <h3 className="text-lg sm:text-xl font-semibold mt-6 mb-2">
+          📍 Zonas de servicio
+        </h3>
+        <ul className="list-disc list-inside mb-4">
+          {currentService.serviceAreas.map((area, i) => (
+            <li key={i}>{area}</li>
+          ))}
+        </ul>
+        <div className="flex justify-end mt-4"> <button onClick={() => handleSelectModelClick (slug)} className="px-4 py-2 rounded-lg bg-yellow-400 text-black text-sm hover:bg-neutral-800 hover:text-white transition" > Elige tu modelo </button> </div>
+
+        <p className="mt-6 font-medium">
+          📦 Envíanos tu móvil | 🔧 Lo reparamos | 🚚 Te lo devolvemos como nuevo
+        </p>
+      </div>
+    </div>
+  </div>
+)}
+         
     </div>
   );
 }

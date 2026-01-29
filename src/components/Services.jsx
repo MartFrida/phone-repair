@@ -2,7 +2,6 @@ import React, {useState} from 'react';
 import ServiceCard from './ServiceCard.jsx';
 import services from '../data/services.json';
 
-
 export default function Services () {
   const [showAll, setShowAll] = useState (false);
 

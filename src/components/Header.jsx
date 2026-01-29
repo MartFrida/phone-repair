@@ -18,7 +18,7 @@ export default function Header() {
 
         {/* DESKTOP NAV */}
         <nav className="hidden md:flex gap-6 text-sm text-neutral-300">
-          <a href="#modelos" className="hover:text-yellow-400">Modelos</a>
+          <a href="#servicios" className="hover:text-yellow-400">Services</a>
           <a href="#contacto" className="hover:text-yellow-400">Contacto</a>
         </nav>
 

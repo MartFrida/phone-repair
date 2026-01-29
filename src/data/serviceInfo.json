@@ -1,0 +1,48 @@
+{
+  "cambiar-pantalla-por-original": {
+    "title": "🔧 Cambio de cristal de pantalla móvil",
+    "description": "El cambio de cristal de pantalla móvil es la solución ideal cuando el cristal está roto o agrietado, pero la pantalla sigue funcionando correctamente, tanto en imagen como en respuesta táctil. Este tipo de reparación permite sustituir únicamente el vidrio dañado, conservando la pantalla original y ofreciendo una opción más económica que el cambio completo de pantalla.",
+    "whenRecommended": [
+      "el cristal del móvil está roto o agrietado",
+      "el táctil responde correctamente",
+      "la imagen se ve clara, sin manchas ni líneas",
+      "no hay zonas negras ni píxeles muertos",
+      "buscas una reparación rápida y económica"
+    ],
+    "advantages": [
+      "Ahorro frente al cambio de pantalla completa",
+      "Conservas la pantalla original del dispositivo",
+      "Reparación segura y profesional",
+      "Resultado como nuevo"
+    ],
+    "serviceAreas": [
+      "Barcelona",
+      "Girona",
+      "Tossa de Mar",
+      "Toda España – recepción de dispositivos por envío"
+    ]
+  },
+  "cambio-bateria": {
+    "title": "🔋 Cambio de batería móvil",
+    "description": "El cambio de batería es la solución perfecta cuando tu móvil se descarga rápidamente o no enciende. Garantiza que tu dispositivo vuelva a funcionar como el primer día, con baterías originales de alta calidad y técnicos certificados.",
+    "whenRecommended": [
+      "El móvil se descarga rápidamente",
+      "Apagados inesperados",
+      "No carga correctamente",
+      "Calienta demasiado",
+      "Batería hinchada"
+    ],
+    "advantages": [
+      "Mayor duración y rendimiento",
+      "Conserva el dispositivo original",
+      "Reparación rápida y segura",
+      "Garantía hasta 12 meses"
+    ],
+    "serviceAreas": [
+      "Barcelona",
+      "Girona",
+      "Tossa de Mar",
+      "Toda España – recepción de dispositivos por envío"
+    ]
+  }
+}
