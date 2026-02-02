@@ -1,18 +1,17 @@
 import REPAIR_DATA from '../data/models.json';
 import { useParams } from 'react-router-dom';
 
-export default function ModelCard({ name, image}) {
-    const { servicio, modelo } = useParams();
+export default function ModelCard({  id, name, image,  isActive }) {
+    const { servicio } = useParams();
   const repair = REPAIR_DATA?.[servicio]?.find(item => item.name === name);
-  console.log("repair", repair);
-  console.log("servicio, modelo", servicio, modelo);
-
-
+ 
   return (
     <div>
-      <article className="group rounded-2xl bg-neutral-900 border border-neutral-800 overflow-hidden hover:border-yellow-400 transition">
-        <div className="h-44 flex items-center justify-center bg-black">
-          <img
+      <article id={`model-${id}`} className={`group rounded-2xl bg-neutral-900 border border-neutral-800 overflow-hidden hover:border-yellow-400 transition ${isActive ? 'ring-2 ring-yellow-400 scale-[1.02] shadow-xl' : ''}
+      `}>
+        <div  className="h-44 flex items-center justify-center bg-black transition-all duration-300
+      ">
+                  <img
             src={image}
             alt={`Reparación ${name}`}
             className="h-full object-contain group-hover:scale-105 transition"

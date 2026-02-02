@@ -1,21 +1,84 @@
 {
   "cambiar-pantalla-por-original": [
     {
-      "id": "iphone-16-128",
+      "id": "iphone-16-pro-max",
       "brand": "iPhone",
       "category": "smartphone",
-      "name": "iPhone 11",
-      "slug": "iphone-11",
-      "image": "https://images.unsplash.com/photo-1726587912121-ea21fcc57ff8?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "name": "iPhone 16 Pro Max",
+      "slug": "iphone-16-pro-max",
+      "image": "/images/models/1_16promax.webp",
       "price": "desde 79€"
     },
     {
-      "id": "iphone-16-125",
+      "id": "iphone-16e",
+      "brand": "iPhone",
+      "category": "smartphone",
+      "name": "iPhone 16e",
+      "slug": "iphone-16e",
+      "image": "/images/models/2_16e.webp",
+      "price": "desde 69€"
+    },
+    {
+      "id": "iphone-16pro",
+      "brand": "iPhone",
+      "category": "smartphone",
+      "name": "iPhone 16 Pro",
+      "slug": "iphone-16pro",
+      "image": "/images/models/3_16pro.webp",
+      "price": "desde 69€"
+    },
+    {
+      "id": "iphone-16",
+      "brand": "iPhone",
+      "category": "smartphone",
+      "name": "iPhone 16",
+      "slug": "iphone-16",
+      "image": "/images/models/4_16.webp",
+      "price": "desde 69€"
+    },
+    {
+      "id": "iphone-16plus",
+      "brand": "iPhone",
+      "category": "smartphone",
+      "name": "iPhone 16 Plus",
+      "slug": "iphone-16plus",
+      "image": "/images/models/5_16plus.webp",
+      "price": "desde 69€"
+    },
+    {
+      "id": "iphone-15promax",
+      "brand": "iPhone",
+      "category": "smartphone",
+      "name": "iPhone 15 ProMax",
+      "slug": "iphone-15promax",
+      "image": "/images/models/1_15promax.webp",
+      "price": "desde 69€"
+    },
+    {
+      "id": "iphone-15pro",
+      "brand": "iPhone",
+      "category": "smartphone",
+      "name": "iPhone 15 Pro",
+      "slug": "iphone-15pro",
+      "image": "/images/models/2_15pro.webp",
+      "price": "desde 69€"
+    },
+    {
+      "id": "iphone-15",
       "brand": "iPhone",
       "category": "smartphone",
       "name": "iPhone 15",
       "slug": "iphone-15",
-      "image": "https://images.unsplash.com/photo-1764155061954-1b5672adf772?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "image": "/images/models/3_15.webp",
+      "price": "desde 69€"
+    },
+    {
+      "id": "iphone-15plus",
+      "brand": "iPhone",
+      "category": "smartphone",
+      "name": "iPhone 15plus",
+      "slug": "iphone-15plus",
+      "image": "/images/models/4_15plus.webp",
       "price": "desde 69€"
     },
     {

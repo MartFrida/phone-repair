@@ -1,13 +1,10 @@
-import { useNavigate } from 'react-router-dom';
-
-export default function ModelSelect({ models }) {
-  const navigate = useNavigate();
-
+export default function ModelSelect({ models, onSelect }) {
   const handleChange = (e) => {
-    if (!e.target.value) return;
+    const modelId = e.target.value;
+    if (!modelId) return;
 
-    const urlName = e.target.value.toLowerCase().replace(/\s+/g, '-');
-    navigate(`/reparar/${urlName}`);
+    onSelect(modelId);
+    e.target.value = '';
   };
 
   return (
@@ -21,7 +18,7 @@ export default function ModelSelect({ models }) {
       </option>
 
       {models.map((model) => (
-        <option key={model.id} value={model.name}>
+        <option key={model.id} value={model.id}>
           {model.name}
         </option>
       ))}

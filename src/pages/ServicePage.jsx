@@ -1,4 +1,5 @@
 import React from 'react';
+import {useState} from 'react';
 import {useParams} from 'react-router-dom';
 import MODELS_BY_SERVICE from '../data/models.json';
 import {logos} from '../data/logos.jsx';
@@ -6,10 +7,10 @@ import ModelCard from '../components/ModelCard.jsx';
 import ModelSelect from '../components/ModelSelect.jsx';
 
 export default function ServicePage () {
+  // eslint-disable-next-line no-unused-vars
+  const [activeModelId, setActiveModelId] = useState (null);
   const {servicio} = useParams ();
-  console.log ('servicio param:', servicio);
-  console.log ('MODELS_BY_SERVICE keys:', Object.keys (MODELS_BY_SERVICE));
-
+  
   const models = MODELS_BY_SERVICE[servicio] || [];
   const iphone = models.filter (m => m.brand === 'iPhone');
   const ipad = models.filter (m => m.brand === 'iPad');
@@ -17,6 +18,21 @@ export default function ServicePage () {
   const samsung = models.filter (m => m.brand === 'Samsung');
   const appleLogo = logos['apple'];
   const samsungLogo = logos['samsung'];
+
+  const handleSelectModel = modelId => {
+    setActiveModelId (modelId);
+
+    const el = document.getElementById (`model-${modelId}`);
+    if (el) {
+      el.scrollIntoView ({
+        behavior: 'smooth',
+        block: 'center',
+      });
+    }
+
+    // убрать подсветку через 2 сек
+    setTimeout (() => setActiveModelId (null), 2000);
+  };
 
   return (
     <section className="max-w-7xl mx-auto px-4 py-10">
@@ -39,10 +55,16 @@ export default function ServicePage () {
           <h4 className="text-2xl sm:text-4xl font-semibold mb-10">iPhone</h4>
         </div>
 
-        <ModelSelect models={iphone} />
+        <ModelSelect models={iphone} onSelect={handleSelectModel} />
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        {iphone.map (model => <ModelCard key={model.id} {...model} />)}
+        {iphone.map (model => (
+          <ModelCard
+            key={model.id}
+            {...model}
+            isActive={activeModelId === model.id}
+          />
+        ))}
       </div>
 
       {/* Ipad */}
@@ -53,10 +75,10 @@ export default function ServicePage () {
           </div>
           <h4 className="text-2xl sm:text-4xl font-semibold mb-10">iPad</h4>
         </div>
-        <ModelSelect models={ipad} />
+        <ModelSelect models={ipad} onSelect={handleSelectModel} />
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        {ipad.map (model => <ModelCard key={model.id} {...model} />)}
+        {ipad.map (model => <ModelCard key={model.id} {...model} isActive={activeModelId === model.id}/>)}
       </div>
 
       {/* Applewatch */}
@@ -69,10 +91,10 @@ export default function ServicePage () {
             Apple Watch
           </h4>
         </div>
-        <ModelSelect models={applewatches} />
+        <ModelSelect models={applewatches} onSelect={handleSelectModel} />
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        {applewatches.map (model => <ModelCard key={model.id} {...model} />)}
+        {applewatches.map (model => <ModelCard key={model.id} {...model} isActive={activeModelId === model.id}/>)}
       </div>
 
       {/* Samsung */}
@@ -80,11 +102,11 @@ export default function ServicePage () {
         {React.cloneElement (samsungLogo, {
           className: 'my-0  w-40 fill-gray-200 hover:fill-white transition',
         })}
-        <ModelSelect models={samsung} />
+        <ModelSelect models={samsung} onSelect={handleSelectModel} />
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        {samsung.map (model => <ModelCard key={model.id} {...model} />)}
+        {samsung.map (model => <ModelCard key={model.id} {...model} isActive={activeModelId === model.id}/>)}
       </div>
 
       {/* SEO-блок */}
