@@ -19,13 +19,13 @@ export default function Footer() {
         <span className="opacity-80">
             info@repairpro.es · +34 600 000 000
           </span>
-          <span>© 2026 RepairPRO · Reparación de móviles en España</span>
+          <span>© 2026 SmartFix · Movìl & Cristal</span>
           
         </div>
 
         {/* Dessaroyador */}
         <a
-          href="https://your-link-here.com"
+          href="https://portfolio-mary-fryda.netlify.app/"
           target="_blank"
           rel="noopener noreferrer"
           className="
@@ -36,10 +36,10 @@ export default function Footer() {
             text-center sm:text-right
           "
         >
-          <span className="opacity-60 group-hover:opacity-100">
-            Marie Frida
+          <span className="opacity-80 group-hover:opacity-100">
+            Mary Fryda
           </span>
-          <span className="ml-2 opacity-40 group-hover:opacity-70">
+          <span className="ml-2 opacity-60 group-hover:opacity-70">
             · Digital craft
           </span>
         </a>

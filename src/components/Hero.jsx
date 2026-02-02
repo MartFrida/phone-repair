@@ -53,12 +53,12 @@ export default function Hero() {
 
           <div className="absolute inset-0 flex items-center">
             <div className="w-full max-w-7xl mx-auto px-6">
-              <div className="max-w-xl ml-auto text-right">
-                <h1 className="text-4xl md:text-5xl xl:text-6xl font-bold text-neutral-200">
+              <div className="max-w-xl ml-auto text-right xl:mr-20 ">
+                <h1 className="text-4xl md:text-5xl xl:text-6xl font-bold text-neutral-200 ">
                   Cambio de cristal
                 </h1>
 
-                <p className="mt-6 text-neutral-200">
+                <p className="mt-6 xl:my-10 text-neutral-200 text-2xl">
                   Reparación rápida con garantía
                 </p>
 
