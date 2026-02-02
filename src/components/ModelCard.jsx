@@ -1,5 +1,6 @@
 import REPAIR_DATA from '../data/models.json';
 import { useParams } from 'react-router-dom';
+import WhatsappButton from './WhatsappButton.jsx';
 
 export default function ModelCard({  id, name, image,  isActive }) {
     const { servicio } = useParams();
@@ -9,7 +10,7 @@ export default function ModelCard({  id, name, image,  isActive }) {
     <div>
       <article id={`model-${id}`} className={`group rounded-2xl bg-neutral-900 border border-neutral-800 overflow-hidden hover:border-yellow-400 transition ${isActive ? 'ring-2 ring-yellow-400 scale-[1.02] shadow-xl' : ''}
       `}>
-        <div  className="h-44 flex items-center justify-center bg-black transition-all duration-300
+        <div  className="h-44 py-1 flex items-center justify-center bg-black transition-all duration-300
       ">
                   <img
             src={image}
@@ -20,34 +21,27 @@ export default function ModelCard({  id, name, image,  isActive }) {
         </div>
         <div className="p-4">
           <h3 className="font-semibold">{name}</h3>
-          {/* Контент: цена, время, кнопки */}
-    <div className="flex-1">
-      {repair ? (
-        <div className="mb-6">
-          <p className="text-xl mb-2">
-            Precio: <span className="text-yellow-400 font-semibold">{repair.price}€</span>
-          </p>
-          
-        </div>
-      ) : (
-        <p className="text-neutral-400 mb-6">
-          Precio no disponible. Consúltanos sin compromiso.
-        </p>
-      )}
 
-       <div className="flex flex-col sm:flex-row gap-2">
-              <a
-                href="https://wa.me/34600000000"
-                target="_blank"
-                rel="noreferrer"
-                className="px-3 py-2 rounded-lg bg-yellow-400 text-black font-medium text-sm hover:opacity-90 transition"
-              >
-                Reparar
-              </a>
+          {/* Контент: цена и кнопка */}
+          <div className="flex items-center justify-between mb-6 relative ">
+            {repair ? (
+              <p className="text-xl">
+                Precio: <span className="text-yellow-400 font-semibold">{repair.price}€</span>
+              </p>
+            ) : (
+              <p className="text-neutral-400">
+                Precio no disponible. Consúltanos sin compromiso.
+              </p>
+            )}
 
-              
+            {/* Кнопка справа */}
+            <div className="absolute right-0 -bottom-6">
+              <WhatsappButton>
+              Reparar
+            </WhatsappButton>
             </div>
-    </div>
+            
+          </div>
         </div>
       </article>
     </div>

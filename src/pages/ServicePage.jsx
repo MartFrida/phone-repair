@@ -1,5 +1,5 @@
 import React from 'react';
-import {useState} from 'react';
+import {useState, useEffect } from 'react';
 import {useParams} from 'react-router-dom';
 import MODELS_BY_SERVICE from '../data/models.json';
 import {logos} from '../data/logos.jsx';
@@ -10,6 +10,13 @@ export default function ServicePage () {
   // eslint-disable-next-line no-unused-vars
   const [activeModelId, setActiveModelId] = useState (null);
   const {servicio} = useParams ();
+
+   useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'instant', // или 'smooth'
+    });
+  }, [servicio]);
   
   const models = MODELS_BY_SERVICE[servicio] || [];
   const iphone = models.filter (m => m.brand === 'iPhone');
@@ -47,7 +54,7 @@ export default function ServicePage () {
 
       {/* Select model - Model Catalog */}
       {/* Iphone */}
-      <div className="mb-4 flex items-baseline justify-between ">
+      <div className="mb-4 flex items-baseline justify-between gap-2">
         <div className="flex items-baseline justify-start gap-5 ">
           <div className="flex items-center justify-start opacity-100 transition">
             {appleLogo}
@@ -68,7 +75,7 @@ export default function ServicePage () {
       </div>
 
       {/* Ipad */}
-      <div className="mt-16 mb-4 flex items-baseline justify-between ">
+      <div className="mt-16 mb-4 flex items-baseline justify-between gap-2">
         <div className="flex items-baseline justify-start gap-5 ">
           <div className="flex items-center justify-start opacity-100 transition">
             {appleLogo}
@@ -82,7 +89,7 @@ export default function ServicePage () {
       </div>
 
       {/* Applewatch */}
-      <div className="mt-16 mb-4 flex items-baseline justify-between ">
+      <div className="mt-16 mb-4 flex items-baseline justify-between gap-2">
         <div className="flex items-baseline justify-start gap-5 ">
           <div className="flex items-center justify-start opacity-100 transition">
             {appleLogo}
@@ -98,7 +105,7 @@ export default function ServicePage () {
       </div>
 
       {/* Samsung */}
-      <div className="mt-12  flex items-center justify-between opacity-100 transition">
+      <div className="mt-12  flex items-center justify-between opacity-100 transition gap-2">
         {React.cloneElement (samsungLogo, {
           className: 'my-0  w-40 fill-gray-200 hover:fill-white transition',
         })}

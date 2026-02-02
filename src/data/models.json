@@ -7,7 +7,7 @@
       "name": "iPhone 16 Pro Max",
       "slug": "iphone-16-pro-max",
       "image": "/images/models/1_16promax.webp",
-      "price": "desde 79€"
+      "price": " 79  "
     },
     {
       "id": "iphone-16e",
@@ -16,7 +16,7 @@
       "name": "iPhone 16e",
       "slug": "iphone-16e",
       "image": "/images/models/2_16e.webp",
-      "price": "desde 69€"
+      "price": " 69  "
     },
     {
       "id": "iphone-16pro",
@@ -25,7 +25,7 @@
       "name": "iPhone 16 Pro",
       "slug": "iphone-16pro",
       "image": "/images/models/3_16pro.webp",
-      "price": "desde 69€"
+      "price": " 69  "
     },
     {
       "id": "iphone-16",
@@ -34,7 +34,7 @@
       "name": "iPhone 16",
       "slug": "iphone-16",
       "image": "/images/models/4_16.webp",
-      "price": "desde 69€"
+      "price": " 69  "
     },
     {
       "id": "iphone-16plus",
@@ -43,7 +43,7 @@
       "name": "iPhone 16 Plus",
       "slug": "iphone-16plus",
       "image": "/images/models/5_16plus.webp",
-      "price": "desde 69€"
+      "price": " 69  "
     },
     {
       "id": "iphone-15promax",
@@ -52,7 +52,7 @@
       "name": "iPhone 15 ProMax",
       "slug": "iphone-15promax",
       "image": "/images/models/1_15promax.webp",
-      "price": "desde 69€"
+      "price": " 69  "
     },
     {
       "id": "iphone-15pro",
@@ -61,7 +61,7 @@
       "name": "iPhone 15 Pro",
       "slug": "iphone-15pro",
       "image": "/images/models/2_15pro.webp",
-      "price": "desde 69€"
+      "price": " 69  "
     },
     {
       "id": "iphone-15",
@@ -70,7 +70,7 @@
       "name": "iPhone 15",
       "slug": "iphone-15",
       "image": "/images/models/3_15.webp",
-      "price": "desde 69€"
+      "price": " 69  "
     },
     {
       "id": "iphone-15plus",
@@ -79,7 +79,7 @@
       "name": "iPhone 15plus",
       "slug": "iphone-15plus",
       "image": "/images/models/4_15plus.webp",
-      "price": "desde 69€"
+      "price": "69  "
     },
     {
       "id": "samsung-6",
@@ -88,7 +88,7 @@
       "name": "Galaxy S23",
       "slug": "galaxy-s23",
       "image": "https://images.unsplash.com/photo-1760074016398-54f00e74ef63?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "price": "desde 75€"
+      "price": " 75  "
     },
     {
       "id": "samsung-5",
@@ -97,7 +97,7 @@
       "name": "Galaxy S22",
       "slug": "galaxy-s22",
       "image": "/images/iphone.jpg",
-      "price": "desde 65€"
+      "price": " 65  "
     },
     {
       "id": "iphone-16-126",
@@ -106,7 +106,7 @@
       "name": "iPhone 13",
       "slug": "iphone-13",
       "image": "/images/iphone.jpg",
-      "price": "desde 69€"
+      "price": " 69  "
     },
     {
       "id": "iPad-0",
@@ -115,7 +115,7 @@
       "name": "ipad Pro ",
       "slug": "ipad-pro",
       "image": "https://images.unsplash.com/photo-1622531635122-4c6ef2a2848f?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "price": "desde 79€"
+      "price": " 79  "
     },
     {
       "id": "iPad-1",
@@ -124,7 +124,7 @@
       "name": "ipad Pro 12.9",
       "slug": "ipad-pro-12-9",
       "image": "https://images.unsplash.com/photo-1622531635122-4c6ef2a2848f?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "price": "desde 79€"
+      "price": " 79  "
     },
     {
       "id": "iPad-2",
@@ -133,7 +133,7 @@
       "name": "ipad Pro ",
       "slug": "ipad-pro",
       "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?q=80&w=1115&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "price": "desde 79€"
+      "price": " 79  "
     },
     {
       "id": "iPad-3",
@@ -142,7 +142,7 @@
       "name": "ipad Pro ",
       "slug": "ipad-pro",
       "image": "https://images.unsplash.com/photo-1585790051609-09928c362a42?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "price": "desde 79€"
+      "price": " 79  "
     },
     {
       "id": "samsung-44",
@@ -151,7 +151,7 @@
       "name": "Galaxy S22",
       "slug": "galaxy-s22",
       "image": "/images/iphone.jpg",
-      "price": "desde 65€"
+      "price": " 65  "
     },
     {
       "id": "applewatch-13",
@@ -160,7 +160,7 @@
       "name": "iPhone 14 Pro",
       "slug": "iphone-14-pro",
       "image": "https://images.unsplash.com/photo-1548244823-b281470f2a95?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "price": "desde 79€"
+      "price": " 79  "
     },
     {
       "id": "applewatch-12",
@@ -169,7 +169,7 @@
       "name": "iPhone 14 Pro",
       "slug": "iphone-14-pro",
       "image": "https://images.unsplash.com/photo-1628427185411-6c8c2338e1e3?q=80&w=1025&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "price": "desde 79€"
+      "price": " 79  "
     },
     {
       "id": "applewatch-2",
@@ -178,7 +178,7 @@
       "name": "iPhone 14 Pro",
       "slug": "iphone-14-pro",
       "image": "https://images.unsplash.com/photo-1600948891299-30a7f822e6d8?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "price": "desde 79€"
+      "price": " 79  "
     },
     {
       "id": "applewatch-1",
@@ -187,7 +187,7 @@
       "name": "iPhone 14 Pro",
       "slug": "iphone-14-pro",
       "image": "https://images.unsplash.com/photo-1548244823-b281470f2a95?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "price": "desde 79€"
+      "price": " 79  "
     },
     {
       "id": "iphone-16-127",
@@ -196,7 +196,7 @@
       "name": "iPhone 13",
       "slug": "iphone-13",
       "image": "/images/iphone.jpg",
-      "price": "desde 69€"
+      "price": " 69  "
     },
     {
       "id": "samsung-4",
@@ -205,7 +205,7 @@
       "name": "Galaxy S23",
       "slug": "galaxy-s23",
       "image": "https://images.unsplash.com/photo-1721864428881-dbabb9ea0017?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "price": "desde 75€"
+      "price": " 75  "
     },
     {
       "id": "samsung-3",
@@ -214,7 +214,7 @@
       "name": "Galaxy S22",
       "slug": "galaxy-s22",
       "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "price": "desde 65€"
+      "price": " 65  "
     },
     {
       "id": "samsung-2",
@@ -223,7 +223,7 @@
       "name": "Galaxy S23",
       "slug": "galaxy-s23",
       "image": "https://images.unsplash.com/photo-1721864428894-3900930506aa?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "price": "desde 75€"
+      "price": " 75  "
     },
     {
       "id": "samsung-1",
@@ -232,7 +232,7 @@
       "name": "Galaxy S23",
       "slug": "galaxy-s23",
       "image": "https://images.unsplash.com/photo-1722151954628-c218fbb82710?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "price": "desde 75€"
+      "price": " 75  "
     }
   ],
   "cambio-bateria": [
@@ -243,7 +243,7 @@
       "name": "iPhone 11",
       "slug": "iphone-11",
       "image": "https://images.unsplash.com/photo-1726587912121-ea21fcc57ff8?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "price": "desde 79€"
+      "price": " 79  "
     },
     {
       "id": "iphone-16-125",
@@ -252,7 +252,7 @@
       "name": "iPhone 15",
       "slug": "iphone-15",
       "image": "https://images.unsplash.com/photo-1764155061954-1b5672adf772?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "price": "desde 69€"
+      "price": " 69  "
     },
     {
       "id": "samsung-6",
@@ -261,7 +261,7 @@
       "name": "Galaxy S23",
       "slug": "galaxy-s23",
       "image": "https://images.unsplash.com/photo-1760074016398-54f00e74ef63?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "price": "desde 75€"
+      "price": " 75  "
     },
     {
       "id": "samsung-5",
@@ -270,7 +270,7 @@
       "name": "Galaxy S22",
       "slug": "galaxy-s22",
       "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "price": "desde 65€"
+      "price": " 65  "
     }
   ]
 }

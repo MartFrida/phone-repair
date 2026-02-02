@@ -1,4 +1,5 @@
 import React from 'react'
+import WhatsappButton from './WhatsappButton.jsx';
 
 export default function Hero() {
   return (
@@ -23,13 +24,13 @@ export default function Hero() {
               Cambio de cristal
             </h1>
 
-            <p className="mt-2 text-sm text-neutral-200">
+            <p className="my-2 text-sm text-neutral-200">
               Reparación rápida con garantía
             </p>
 
-            <button className="mt-4 w-full py-3 rounded-xl bg-yellow-400 text-black font-semibold">
-              Contactar
-            </button>
+            <WhatsappButton>
+            Contactar
+          </WhatsappButton>
           </div>
         </div>
 
@@ -54,18 +55,17 @@ export default function Hero() {
             <div className="w-full max-w-7xl mx-auto px-6">
               <div className="max-w-xl ml-auto text-right">
                 <h1 className="text-4xl md:text-5xl xl:text-6xl font-bold text-neutral-200">
-                  Reemplazo de cristal de pantalla
+                  Cambio de cristal
                 </h1>
 
                 <p className="mt-6 text-neutral-200">
-                  Servicio profesional para iPhone y Samsung.  
-                  Piezas originales y garantía hasta 12 meses.
+                  Reparación rápida con garantía
                 </p>
 
                 <div className="mt-8 flex gap-4 justify-end">
-                  <button className="px-6 py-3 rounded-xl bg-yellow-400 text-black font-semibold">
-                    Contactar
-                  </button>
+                  <WhatsappButton>
+            Contactar
+          </WhatsappButton>
                  
                 </div>
               </div>

@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {useNavigate} from 'react-router-dom';
 import serviceInfo from '../data/serviceInfo.json';
+import WhatsappButton from './WhatsappButton.jsx';
 
 export default function ServiceCard({title, slug, description, image}) {
   const navigate = useNavigate ();
@@ -36,6 +37,9 @@ export default function ServiceCard({title, slug, description, image}) {
           >
             Elegir modelo
           </button>
+          {/* <WhatsappButton onClick={() => handleSelectModelClick (slug)} variant="outline">
+  Elegir modelo
+</WhatsappButton> */}
           <button
             onClick={handleOpenModal}
             className="px-4 py-2 rounded-lg bg-neutral-800 text-sm hover:bg-yellow-400 hover:text-black transition"
