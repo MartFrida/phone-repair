@@ -7,7 +7,7 @@
       "name": "iPhone 17 E",
       "slug": "iphone-17-e",
       "image": "/images/models/1_17e.webp",
-      "price": " 79  "
+      "price": " -  "
     },
     {
       "id": "iphone-17",
@@ -16,7 +16,7 @@
       "name": "iPhone 17",
       "slug": "iphone-17",
       "image": "/images/models/2_17.webp",
-      "price": " 79  "
+      "price": " -  "
     },
     {
       "id": "iphone-17-pro",
@@ -25,7 +25,7 @@
       "name": "iPhone 17 Pro",
       "slug": "iphone-17-pro",
       "image": "/images/models/3_17pro.webp",
-      "price": " 79  "
+      "price": " -  "
     },
   {
       "id": "iphone-17-air",
@@ -34,7 +34,7 @@
       "name": "iPhone 17 Air",
       "slug": "iphone-17-air",
       "image": "/images/models/4_17air.webp",
-      "price": " 79  "
+      "price": " -  "
     },
     {
       "id": "iphone-17-pro-max",
@@ -43,7 +43,7 @@
       "name": "iPhone 17 Pro Max",
       "slug": "iphone-17-pro-max",
       "image": "/images/models/5_17promax.webp",
-      "price": " 79  "
+      "price": " -  "
     },
     {
       "id": "iphone-16-pro-max",
@@ -52,7 +52,7 @@
       "name": "iPhone 16 Pro Max",
       "slug": "iphone-16-pro-max",
       "image": "/images/models/6_16promax.webp",
-      "price": " 79  "
+      "price": " 455  "
     },
     {
       "id": "iphone-16e",
@@ -61,7 +61,7 @@
       "name": "iPhone 16e",
       "slug": "iphone-16e",
       "image": "/images/models/7_16e.webp",
-      "price": " 69  "
+      "price": " 225  "
     },
     {
       "id": "iphone-16pro",
@@ -70,7 +70,7 @@
       "name": "iPhone 16 Pro",
       "slug": "iphone-16pro",
       "image": "/images/models/8_16pro.webp",
-      "price": " 69  "
+      "price": " 445  "
     },
     {
       "id": "iphone-16",
@@ -79,7 +79,7 @@
       "name": "iPhone 16",
       "slug": "iphone-16",
       "image": "/images/models/9_16.webp",
-      "price": " 69  "
+      "price": " 325  "
     },
     {
       "id": "iphone-16plus",
@@ -88,7 +88,7 @@
       "name": "iPhone 16 Plus",
       "slug": "iphone-16plus",
       "image": "/images/models/10_16plus.webp",
-      "price": " 69  "
+      "price": " 385  "
     },
     {
       "id": "iphone-15promax",
@@ -97,7 +97,7 @@
       "name": "iPhone 15 ProMax",
       "slug": "iphone-15promax",
       "image": "/images/models/11_15promax.webp",
-      "price": " 69  "
+      "price": " 435  "
     },
     {
       "id": "iphone-15",
@@ -106,7 +106,7 @@
       "name": "iPhone 15",
       "slug": "iphone-15",
       "image": "/images/models/12_15.webp",
-      "price": " 69  "
+      "price": " 245  "
     },
     {
       "id": "iphone-15plus",
@@ -115,7 +115,7 @@
       "name": "iPhone 15 Plus",
       "slug": "iphone-15-plus",
       "image": "/images/models/13_15plus.webp",
-      "price": " 69  "
+      "price": " 265  "
     },
     {
       "id": "iphone-15pro",
@@ -124,7 +124,7 @@
       "name": "iPhone 15 Pro",
       "slug": "iphone-15pro",
       "image": "/images/models/14_15pro.webp",
-      "price": "69  "
+      "price": "345  "
     },
     {
       "id": "iphone-14plus",
@@ -133,7 +133,7 @@
       "name": "iPhone 14 Plus",
       "slug": "iphone-14-plus",
       "image": "/images/models/15_14plus.webp",
-      "price": " 69  "
+      "price": " 205  "
     },
     {
       "id": "iphone-14pro-max",
@@ -142,7 +142,7 @@
       "name": "iPhone 14 Pro Max",
       "slug": "iphone-14pro-max",
       "image": "/images/models/16_14promax.webp",
-      "price": "69  "
+      "price": "395  "
     },
     {
       "id": "iphone-14pro",
@@ -151,7 +151,7 @@
       "name": "iPhone 14 Pro",
       "slug": "iphone-14pro",
       "image": "/images/models/17_14pro.webp",
-      "price": " 69  "
+      "price": " 355  "
     },
     {
       "id": "iphone-14",
@@ -160,7 +160,7 @@
       "name": "iPhone 14",
       "slug": "iphone-14",
       "image": "/images/models/18_14.webp",
-      "price": "69  "
+      "price": "185  "
     },
     {
       "id": "iphone-13promax",
@@ -169,7 +169,7 @@
       "name": "iPhone 13 Pro Max",
       "slug": "iphone-13promax",
       "image": "/images/models/19_13promax.webp",
-      "price": " 69  "
+      "price": " 330  "
     },
     {
       "id": "iphone-13mini",
@@ -178,7 +178,7 @@
       "name": "iPhone 13 Mini",
       "slug": "iphone-13mini",
       "image": "/images/models/20_13mini.webp",
-      "price": "69  "
+      "price": "165  "
     },
     {
       "id": "iphone-13pro",
@@ -187,7 +187,7 @@
       "name": "iPhone 13 Pro",
       "slug": "iphone-13pro",
       "image": "/images/models/21_13pro.webp",
-      "price": " 69  "
+      "price": " 285  "
     },
     {
       "id": "iphone-13",
@@ -196,7 +196,7 @@
       "name": "iPhone 13",
       "slug": "iphone-13",
       "image": "/images/models/22_13.webp",
-      "price": "69  "
+      "price": "175  "
     },
     {
       "id": "iphone-12promax",
@@ -205,7 +205,7 @@
       "name": "iPhone 12 Pro Max",
       "slug": "iphone-12promax",
       "image": "/images/models/23_12promax.webp",
-      "price": " 69  "
+      "price": " 185  "
     },
     {
       "id": "iphone-12mini",
@@ -214,7 +214,7 @@
       "name": "iPhone 12 Mini",
       "slug": "iphone-12mini",
       "image": "/images/models/24_12mini.webp",
-      "price": "69  "
+      "price": "155  "
     },
     {
       "id": "iphone-12pro",
@@ -223,7 +223,7 @@
       "name": "iPhone 12 Pro",
       "slug": "iphone-12pro",
       "image": "/images/models/25_12pro.webp",
-      "price": " 69  "
+      "price": " 135  "
     },
     {
       "id": "iphone-12",
@@ -232,7 +232,7 @@
       "name": "iPhone 12",
       "slug": "iphone-12",
       "image": "/images/models/26_12.webp",
-      "price": "69  "
+      "price": "135  "
     },
     {
       "id": "iphone-11pro",
@@ -241,7 +241,7 @@
       "name": "iPhone 11 Pro",
       "slug": "iphone-11pro",
       "image": "/images/models/27_11pro.webp",
-      "price": " 69  "
+      "price": " 105  "
     },
     {
       "id": "iphone-11promax",
@@ -250,7 +250,7 @@
       "name": "iPhone 11 Pro Max",
       "slug": "iphone-11promax",
       "image": "/images/models/28_11promax.webp",
-      "price": "69  "
+      "price": "115  "
     },
     {
       "id": "iphone-11",
@@ -259,7 +259,7 @@
       "name": "iPhone 11",
       "slug": "iphone-11",
       "image": "/images/models/29_11.webp",
-      "price": " 69  "
+      "price": " 80  "
     },
     {
       "id": "iphone-XS-max",
@@ -268,7 +268,7 @@
       "name": "iPhone XS Max",
       "slug": "iphone-xs-max",
       "image": "/images/models/30_XSMax.webp",
-      "price": "69  "
+      "price": "90  "
     },
     {
       "id": "iphone-XR",
@@ -277,7 +277,7 @@
       "name": "iPhone XR",
       "slug": "iphone-xr",
       "image": "/images/models/31_XR.webp",
-      "price": " 69  "
+      "price": " 80  "
     },
     {
       "id": "iphone-XS",
@@ -286,7 +286,7 @@
       "name": "iPhone XS",
       "slug": "iphone-xs",
       "image": "/images/models/32_XS.webp",
-      "price": "69  "
+      "price": "80  "
     },
     {
       "id": "iphone-SE2020",
@@ -295,7 +295,7 @@
       "name": "iPhone SE 2020",
       "slug": "iphone-se-2020",
       "image": "/images/models/33_SE2020.webp",
-      "price": " 69  "
+      "price": " 60  "
     },
     {
       "id": "iphone-X",
@@ -304,7 +304,7 @@
       "name": "iPhone X",
       "slug": "iphone-x",
       "image": "/images/models/34_X.webp",
-      "price": "69  "
+      "price": "80  "
     },
 
     {
@@ -325,15 +325,7 @@
       "image": "/images/iphone.jpg",
       "price": " 65  "
     },
-    {
-      "id": "iphone-16-126",
-      "brand": "iPhone",
-      "category": "tablet",
-      "name": "iPhone 13",
-      "slug": "iphone-13",
-      "image": "/images/iphone.jpg",
-      "price": " 69  "
-    },
+    
     {
       "id": "iPad-0",
       "brand": "iPad",
@@ -415,15 +407,7 @@
       "image": "https://images.unsplash.com/photo-1548244823-b281470f2a95?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "price": " 79  "
     },
-    {
-      "id": "iphone-16-127",
-      "brand": "iPhone",
-      "category": "applewatch",
-      "name": "iPhone 13",
-      "slug": "iphone-13",
-      "image": "/images/iphone.jpg",
-      "price": " 69  "
-    },
+    
     {
       "id": "samsung-4",
       "brand": "Samsung",
