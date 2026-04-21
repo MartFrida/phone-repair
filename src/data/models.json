@@ -1,12 +1,57 @@
 {
   "cambiar-pantalla-por-original": [
     {
+      "id": "iphone-17-e",
+      "brand": "iPhone",
+      "category": "smartphone",
+      "name": "iPhone 17 E",
+      "slug": "iphone-17-e",
+      "image": "/images/models/1_17e.webp",
+      "price": " 79  "
+    },
+    {
+      "id": "iphone-17",
+      "brand": "iPhone",
+      "category": "smartphone",
+      "name": "iPhone 17",
+      "slug": "iphone-17",
+      "image": "/images/models/2_17.webp",
+      "price": " 79  "
+    },
+    {
+      "id": "iphone-17-pro",
+      "brand": "iPhone",
+      "category": "smartphone",
+      "name": "iPhone 17 Pro",
+      "slug": "iphone-17-pro",
+      "image": "/images/models/3_17pro.webp",
+      "price": " 79  "
+    },
+  {
+      "id": "iphone-17-air",
+      "brand": "iPhone",
+      "category": "smartphone",
+      "name": "iPhone 17 Air",
+      "slug": "iphone-17-air",
+      "image": "/images/models/4_17air.webp",
+      "price": " 79  "
+    },
+    {
+      "id": "iphone-17-pro-max",
+      "brand": "iPhone",
+      "category": "smartphone",
+      "name": "iPhone 17 Pro Max",
+      "slug": "iphone-17-pro-max",
+      "image": "/images/models/5_17promax.webp",
+      "price": " 79  "
+    },
+    {
       "id": "iphone-16-pro-max",
       "brand": "iPhone",
       "category": "smartphone",
       "name": "iPhone 16 Pro Max",
       "slug": "iphone-16-pro-max",
-      "image": "/images/models/1_16promax.webp",
+      "image": "/images/models/6_16promax.webp",
       "price": " 79  "
     },
     {
@@ -15,7 +60,7 @@
       "category": "smartphone",
       "name": "iPhone 16e",
       "slug": "iphone-16e",
-      "image": "/images/models/2_16e.webp",
+      "image": "/images/models/7_16e.webp",
       "price": " 69  "
     },
     {
@@ -24,7 +69,7 @@
       "category": "smartphone",
       "name": "iPhone 16 Pro",
       "slug": "iphone-16pro",
-      "image": "/images/models/3_16pro.webp",
+      "image": "/images/models/8_16pro.webp",
       "price": " 69  "
     },
     {
@@ -33,7 +78,7 @@
       "category": "smartphone",
       "name": "iPhone 16",
       "slug": "iphone-16",
-      "image": "/images/models/4_16.webp",
+      "image": "/images/models/9_16.webp",
       "price": " 69  "
     },
     {
@@ -42,7 +87,7 @@
       "category": "smartphone",
       "name": "iPhone 16 Plus",
       "slug": "iphone-16plus",
-      "image": "/images/models/5_16plus.webp",
+      "image": "/images/models/10_16plus.webp",
       "price": " 69  "
     },
     {
@@ -51,16 +96,7 @@
       "category": "smartphone",
       "name": "iPhone 15 ProMax",
       "slug": "iphone-15promax",
-      "image": "/images/models/1_15promax.webp",
-      "price": " 69  "
-    },
-    {
-      "id": "iphone-15pro",
-      "brand": "iPhone",
-      "category": "smartphone",
-      "name": "iPhone 15 Pro",
-      "slug": "iphone-15pro",
-      "image": "/images/models/2_15pro.webp",
+      "image": "/images/models/11_15promax.webp",
       "price": " 69  "
     },
     {
@@ -69,18 +105,208 @@
       "category": "smartphone",
       "name": "iPhone 15",
       "slug": "iphone-15",
-      "image": "/images/models/3_15.webp",
+      "image": "/images/models/12_15.webp",
       "price": " 69  "
     },
     {
       "id": "iphone-15plus",
       "brand": "iPhone",
       "category": "smartphone",
-      "name": "iPhone 15plus",
-      "slug": "iphone-15plus",
-      "image": "/images/models/4_15plus.webp",
+      "name": "iPhone 15 Plus",
+      "slug": "iphone-15-plus",
+      "image": "/images/models/13_15plus.webp",
+      "price": " 69  "
+    },
+    {
+      "id": "iphone-15pro",
+      "brand": "iPhone",
+      "category": "smartphone",
+      "name": "iPhone 15 Pro",
+      "slug": "iphone-15pro",
+      "image": "/images/models/14_15pro.webp",
       "price": "69  "
     },
+    {
+      "id": "iphone-14plus",
+      "brand": "iPhone",
+      "category": "smartphone",
+      "name": "iPhone 14 Plus",
+      "slug": "iphone-14-plus",
+      "image": "/images/models/15_14plus.webp",
+      "price": " 69  "
+    },
+    {
+      "id": "iphone-14pro-max",
+      "brand": "iPhone",
+      "category": "smartphone",
+      "name": "iPhone 14 Pro Max",
+      "slug": "iphone-14pro-max",
+      "image": "/images/models/16_14promax.webp",
+      "price": "69  "
+    },
+    {
+      "id": "iphone-14pro",
+      "brand": "iPhone",
+      "category": "smartphone",
+      "name": "iPhone 14 Pro",
+      "slug": "iphone-14pro",
+      "image": "/images/models/17_14pro.webp",
+      "price": " 69  "
+    },
+    {
+      "id": "iphone-14",
+      "brand": "iPhone",
+      "category": "smartphone",
+      "name": "iPhone 14",
+      "slug": "iphone-14",
+      "image": "/images/models/18_14.webp",
+      "price": "69  "
+    },
+    {
+      "id": "iphone-13promax",
+      "brand": "iPhone",
+      "category": "smartphone",
+      "name": "iPhone 13 Pro Max",
+      "slug": "iphone-13promax",
+      "image": "/images/models/19_13promax.webp",
+      "price": " 69  "
+    },
+    {
+      "id": "iphone-13mini",
+      "brand": "iPhone",
+      "category": "smartphone",
+      "name": "iPhone 13 Mini",
+      "slug": "iphone-13mini",
+      "image": "/images/models/20_13mini.webp",
+      "price": "69  "
+    },
+    {
+      "id": "iphone-13pro",
+      "brand": "iPhone",
+      "category": "smartphone",
+      "name": "iPhone 13 Pro",
+      "slug": "iphone-13pro",
+      "image": "/images/models/21_13pro.webp",
+      "price": " 69  "
+    },
+    {
+      "id": "iphone-13",
+      "brand": "iPhone",
+      "category": "smartphone",
+      "name": "iPhone 13",
+      "slug": "iphone-13",
+      "image": "/images/models/22_13.webp",
+      "price": "69  "
+    },
+    {
+      "id": "iphone-12promax",
+      "brand": "iPhone",
+      "category": "smartphone",
+      "name": "iPhone 12 Pro Max",
+      "slug": "iphone-12promax",
+      "image": "/images/models/23_12promax.webp",
+      "price": " 69  "
+    },
+    {
+      "id": "iphone-12mini",
+      "brand": "iPhone",
+      "category": "smartphone",
+      "name": "iPhone 12 Mini",
+      "slug": "iphone-12mini",
+      "image": "/images/models/24_12mini.webp",
+      "price": "69  "
+    },
+    {
+      "id": "iphone-12pro",
+      "brand": "iPhone",
+      "category": "smartphone",
+      "name": "iPhone 12 Pro",
+      "slug": "iphone-12pro",
+      "image": "/images/models/25_12pro.webp",
+      "price": " 69  "
+    },
+    {
+      "id": "iphone-12",
+      "brand": "iPhone",
+      "category": "smartphone",
+      "name": "iPhone 12",
+      "slug": "iphone-12",
+      "image": "/images/models/26_12.webp",
+      "price": "69  "
+    },
+    {
+      "id": "iphone-11pro",
+      "brand": "iPhone",
+      "category": "smartphone",
+      "name": "iPhone 11 Pro",
+      "slug": "iphone-11pro",
+      "image": "/images/models/27_11pro.webp",
+      "price": " 69  "
+    },
+    {
+      "id": "iphone-11promax",
+      "brand": "iPhone",
+      "category": "smartphone",
+      "name": "iPhone 11 Pro Max",
+      "slug": "iphone-11promax",
+      "image": "/images/models/28_11promax.webp",
+      "price": "69  "
+    },
+    {
+      "id": "iphone-11",
+      "brand": "iPhone",
+      "category": "smartphone",
+      "name": "iPhone 11",
+      "slug": "iphone-11",
+      "image": "/images/models/29_11.webp",
+      "price": " 69  "
+    },
+    {
+      "id": "iphone-XS-max",
+      "brand": "iPhone",
+      "category": "smartphone",
+      "name": "iPhone XS Max",
+      "slug": "iphone-xs-max",
+      "image": "/images/models/30_XSMax.webp",
+      "price": "69  "
+    },
+    {
+      "id": "iphone-XR",
+      "brand": "iPhone",
+      "category": "smartphone",
+      "name": "iPhone XR",
+      "slug": "iphone-xr",
+      "image": "/images/models/31_XR.webp",
+      "price": " 69  "
+    },
+    {
+      "id": "iphone-XS",
+      "brand": "iPhone",
+      "category": "smartphone",
+      "name": "iPhone XS",
+      "slug": "iphone-xs",
+      "image": "/images/models/32_XS.webp",
+      "price": "69  "
+    },
+    {
+      "id": "iphone-SE2020",
+      "brand": "iPhone",
+      "category": "smartphone",
+      "name": "iPhone SE 2020",
+      "slug": "iphone-se-2020",
+      "image": "/images/models/33_SE2020.webp",
+      "price": " 69  "
+    },
+    {
+      "id": "iphone-X",
+      "brand": "iPhone",
+      "category": "smartphone",
+      "name": "iPhone X",
+      "slug": "iphone-x",
+      "image": "/images/models/34_X.webp",
+      "price": "69  "
+    },
+
     {
       "id": "samsung-6",
       "brand": "Samsung",
