@@ -68,16 +68,19 @@ export default function ServiceCard({title, slug, description, image}) {
 
       <div className="prose prose-invert max-w-none text-neutral-400">
         <h2 className="text-xl sm:text-2xl font-bold mb-3">
-          {currentService.title}
+          {currentService?.title}
         </h2>
-
-        <p className="mb-4">{currentService.description}</p>
+<h3 className="text-lg sm:text-xl font-semibold mt-6 mb-2">
+          {currentService?.seoTitle}
+        </h3>
+        <p className="mb-4">{currentService.metaDescription}</p>
+<p className="mb-4">{currentService?.intro}</p>
 
         <h3 className="text-lg sm:text-xl font-semibold mt-6 mb-2">
           📌 ¿Cuándo es recomendable?
         </h3>
         <ul className="list-disc list-inside mb-4">
-          {currentService.whenRecommended.map((item, i) => (
+          {currentService?.whenRecommended.map((item, i) => (
             <li key={i}>{item}</li>
           ))}
         </ul>
@@ -86,7 +89,7 @@ export default function ServiceCard({title, slug, description, image}) {
           💡 Ventajas
         </h3>
         <ul className="list-disc list-inside mb-4">
-          {currentService.advantages.map((item, i) => (
+          {currentService?.advantages.map((item, i) => (
             <li key={i}>{item}</li>
           ))}
         </ul>
@@ -95,10 +98,30 @@ export default function ServiceCard({title, slug, description, image}) {
           📍 Zonas de servicio
         </h3>
         <ul className="list-disc list-inside mb-4">
-          {currentService.serviceAreas.map((area, i) => (
+          {currentService?.serviceAreas.map((area, i) => (
             <li key={i}>{area}</li>
           ))}
         </ul>
+        {currentService?.faq?.length > 0 && (
+          <>
+            <h3 className="text-lg sm:text-xl font-semibold mt-6 mb-2">
+              ❓ Preguntas frecuentes
+            </h3>
+            <div className="space-y-4 mb-4">
+              {currentService.faq.map((item, i) => (
+                <div key={i} className="rounded-lg border border-neutral-700 p-4">
+                  <h4 className="text-base sm:text-lg font-semibold text-white mb-2">
+                    {item.q}
+                  </h4>
+                  <p className="text-sm sm:text-base text-neutral-400">
+                    {item.a}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </>
+        )}
+
         <div className="flex justify-end mt-4"> <button onClick={() => handleSelectModelClick (slug)} className="px-4 py-2 rounded-lg bg-yellow-400 text-black text-sm hover:bg-neutral-800 hover:text-white transition" > Elegir modelo </button> </div>
 
         <p className="mt-6 font-medium">

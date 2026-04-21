@@ -1,7 +1,40 @@
 {
+
+  "cambiar-cristal-pantalla": {
+    "title": "Cambio de cristal de pantalla",
+    "seoTitle": "Cambio de cristal de pantalla para iPhone, iPad y Samsung",
+    "metaDescription": "Sustitución de cristal de pantalla por modelo. Consulta precios para iPhone, iPad, Apple Watch y Samsung.",
+    "intro": "Reparamos el cristal de la pantalla cuando ...",
+    "whenRecommended": [
+      "La imagen funciona pero el cristal está roto",
+      "El táctil responde correctamente",
+      "No quieres cambiar el módulo completo si no hace falta"
+    ],
+    "advantages": [
+      "Ahorro frente al cambio completo",
+      "Solución más específica",
+      "Disponible para varios modelos"
+    ],
+    "serviceAreas": [
+      "Barcelona",
+      "Girona",
+      "Tossa de Mar",
+      "Toda España – recepción de dispositivos por envío"
+    ],
+    "faq": [
+      {
+        "q": "¿Cuándo se puede cambiar solo el cristal?",
+        "a": "Cuando la pantalla muestra imagen correctamente y ..."
+      },
+      {
+        "q": "¿Es más barato que cambiar la pantalla completa?",
+        "a": "Sí, normalmente ..."
+      }
+    ]
+  },
   "cambiar-pantalla-por-original": {
     "title": "🔧 Cambio de cristal de pantalla móvil",
-    "description": "El cambio de cristal de pantalla móvil es la solución ideal cuando el cristal está roto o agrietado, pero la pantalla sigue funcionando correctamente, tanto en imagen como en respuesta táctil. Este tipo de reparación permite sustituir únicamente el vidrio dañado, conservando la pantalla original y ofreciendo una opción más económica que el cambio completo de pantalla.",
+    "metaDescription": "El cambio de cristal de pantalla móvil es la solución ideal cuando el cristal está roto o agrietado, pero la pantalla sigue funcionando correctamente, tanto en imagen como en respuesta táctil. Este tipo de reparación permite sustituir únicamente el vidrio dañado, conservando la pantalla original y ofreciendo una opción más económica que el cambio completo de pantalla.",
     "whenRecommended": [
       "el cristal del móvil está roto o agrietado",
       "el táctil responde correctamente",
