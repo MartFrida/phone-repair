@@ -14,14 +14,26 @@ export default function Footer() {
         sm:flex-row sm:items-center sm:justify-between
         text-sm text-neutral-500
       ">
-        {/* Contacto y copyright */}
-        <div className="flex flex-col gap-1 text-center sm:text-left">
-        <span className="opacity-80">
-            info@repairpro.es · +34 600 000 000
-          </span>
-          <span>© 2026 SmartFix · Movìl & Cristal</span>
-          
-        </div>
+       {/* Contacto y copyright */}
+<div className="flex flex-col gap-1 text-center sm:text-left">
+  <span className="opacity-80">
+    <a
+      href="mailto:smartfix.movil@gmail.com"
+      className="hover:text-white transition-colors"
+    >
+      smartfix.movil@gmail.com
+    </a>{" "}
+    ·{" "}
+    <a
+      href="tel:+34661682949"
+      className="hover:text-white transition-colors"
+    >
+      +34 661 682 949
+    </a>
+  </span>
+
+  <span>© 2026 SmartFix · Móvil & Cristal</span>
+</div>
 
         {/* Dessaroyador */}
         <a

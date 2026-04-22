@@ -1,5 +1,5 @@
 export default function WhatsappButton({
-  href = 'https://wa.me/34600000000',
+  href = 'https://wa.me/34661682949?text=Hola%20SmartFix%2C%20quiero%20solicitar%20una%20reparaci%C3%B3n',
   children = 'Reparar',
   variant = 'primary',
   className = '',

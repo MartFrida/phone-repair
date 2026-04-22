@@ -1,11 +1,11 @@
-import React, {useState} from 'react';
-import ServiceCard from './ServiceCard.jsx';
-import services from '../data/services.json';
+import React from "react";
+import ServiceCard from "./ServiceCard.jsx";
+import services from "../data/services.json";
 
-export default function Services () {
-  const [showAll, setShowAll] = useState (false);
+export default function Services() {
+  // const [showAll, setShowAll] = useState(false);
 
-  const visibleServices = showAll ? services : services.slice (0, 3);
+  // const visibleServices = showAll ? services : services.slice(0, 3);
 
   return (
     <section
@@ -16,12 +16,16 @@ export default function Services () {
         🔧 ¿Qué necesitas reparar?
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        {visibleServices.map (service => (
+        {services.map((service) => (
           <ServiceCard key={service.title} {...service} />
         ))}
       </div>
 
-      {services.length > 3 &&
+      {/*  With button to show all services if there are more than 3, but 
+      currently we have only 3 services in the data, so this button is not
+      needed. If we add more services in the future, we can uncomment this code
+      to allow users to see all services.*/}
+      {/* {services.length > 3 &&
         <div className="mt-12 text-center">
           <button
             onClick={() => setShowAll (!showAll)}
@@ -29,7 +33,9 @@ export default function Services () {
           >
             {showAll ? 'Ver menos' : 'Ver todos los servicios'}
           </button>
-        </div>}
+        </div>} */}
+
+     
     </section>
   );
 }

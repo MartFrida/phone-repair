@@ -25,8 +25,7 @@ export default function Hero() {
             </h1>
 
             <p className="my-2 text-sm text-neutral-200">
-              Reparación rápida con garantía
-            </p>
+              Reparación rápida             </p>
 
             <WhatsappButton>
             Contactar
@@ -59,7 +58,7 @@ export default function Hero() {
                 </h1>
 
                 <p className="mt-6 xl:my-10 text-neutral-200 text-2xl">
-                  Reparación rápida con garantía
+                  Reparación rápida
                 </p>
 
                 <div className="mt-8 flex gap-4 justify-end">
