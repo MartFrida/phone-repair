@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+
+# Разрешаем индексацию основных файлов
+
+Allow: /assets/
+Allow: /*.js$
+Allow: /*.css$
+
+# Запрещаем служебные или несуществующие разделы (если появятся)
+
+Disallow: /admin/
+Disallow: /login/
+Disallow: /cart/
+
+# Указываем карту сайта
+
+Sitemap: https://smartfixmovil.es/sitemap.xml
